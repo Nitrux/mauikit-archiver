@@ -27,15 +27,11 @@ BUILD_DEPS='
     libkf6i18n-dev
     libkf6iconthemes-dev
     libkf6kio-dev
-    libpoppler-private-dev
-    libpoppler-qt6-dev
     lintian
     qt6-base-dev
     qt6-base-private-dev
     qt6-declarative-dev
     qt6-declarative-private-dev
-    qt6-multimedia-dev
-    qt6-svg-dev
 '
 
 $APT_COMMAND update -q
