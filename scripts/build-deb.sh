@@ -89,7 +89,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=mauikit-archiver \
-	--requires="libc6,libkf6archive6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6t64,libqt6gui6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,libqt6quickshapes6,mauikit \(\>= 4.0.2\),mauikit-filebrowsing \(\>= 4.0.2\)" \
+	--requires="libc6,libkf6archive6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6,libqt6gui6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,libqt6quickshapes6,mauikit \(\>= 4.0.2\),mauikit-filebrowsing \(\>= 4.0.2\)" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
