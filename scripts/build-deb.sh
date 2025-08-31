@@ -60,7 +60,8 @@ make -j"$(nproc)"
 
 make install
 
-### Run checkinstall and Build Debian Package
+
+# -- Run checkinstall and Build Debian Package
 
 >> description-pak printf "%s\n" \
 	'A free and modular front-end framework for developing user experiences.' \
@@ -89,7 +90,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=mauikit-archiver \
-	--requires="libc6,libkf6archive6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6,libqt6gui6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,qt6-declarative,mauikit \(\>= 4.0.1\),mauikit-filebrowsing \(\>= 4.0.1\)" \
+	--requires="libc6,libkf6archive6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6,libqt6gui6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,qt6-declarative,mauikit \(\>= 4.0.2\),mauikit-filebrowsing \(\>= 4.0.2\)" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
