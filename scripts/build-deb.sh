@@ -11,7 +11,7 @@ set -e
 
 # -- Download Source
 
-git clone --depth 1 --branch "$MAUIKIT_ARCHIVER_BRANCH" https://invent.kde.org/maui/mauikit-archiver.git
+git clone --depth 1 --branch "$MAUIKIT_ARCHIVER_BRANCH" https://github.com/Nitrux/mauikit-archiver-src.git
 
 rm -rf mauikit-archiver/{LICENSE,README.md,metainfo.yml}
 
